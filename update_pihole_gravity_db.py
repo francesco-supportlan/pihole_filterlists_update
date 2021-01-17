@@ -53,6 +53,7 @@ for i in formatted_data_adlists:
         if status_code == 200:
           try:
             url_list_to_import.append(validating_url)
+            break
           except:
             continue
         else:
